@@ -1,10 +1,7 @@
 
 .expenses-filter {
     color: white;
-    padding: 1rem;
-    width: 50rem;
-    max-width: 95%;
-    margin: 2rem auto;
+    padding: 0 1rem;
   }
   
   .expenses-filter__control {

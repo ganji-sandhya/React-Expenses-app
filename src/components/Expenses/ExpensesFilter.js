@@ -1,5 +1,4 @@
 import React from 'react';
-import Card from '../UI/Card';
 
 import './ExpensesFilter.css';
 
@@ -10,7 +9,7 @@ const ExpensesFilter = (props) => {
    props.onChangeYear(event.target.value);
   };
   return (
-    <Card className='expenses-filter'>
+    <div className='expenses-filter'>
       <div className='expenses-filter__control'>
         <label>Filter by year</label>
         <select value={props.selected} onChange={selectYearHandler}>
@@ -20,7 +19,7 @@ const ExpensesFilter = (props) => {
           <option value='2019'>2019</option>
         </select>
       </div>
-    </Card>
+    </div>
   );
 };
 
